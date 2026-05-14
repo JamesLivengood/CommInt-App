@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /opt/homebrew -name \"pg_hba.conf\" 2>/dev/null | head -3 && find /usr/local -name \"pg_hba.conf\" 2>/dev/null | head -3)",
+      "Read(//opt/**)",
+      "Read(//usr/local/**)"
+    ]
+  }
+}
