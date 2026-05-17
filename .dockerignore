@@ -2,8 +2,3 @@
 .DS_Store
 client/node_modules
 client/dist
-api/log
-api/tmp
-api/storage
-api/.bundle
-api/config/master.key
