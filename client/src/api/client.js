@@ -1,4 +1,4 @@
-const BASE_URL = "/api/v1";
+const BASE_URL = `${import.meta.env.VITE_API_URL ?? ""}/api/v1`;
 
 export async function searchSubjects(query) {
   const res = await fetch(`${BASE_URL}/subjects?search=${encodeURIComponent(query)}`);
